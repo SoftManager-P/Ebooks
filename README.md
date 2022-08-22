@@ -24,7 +24,7 @@ authenicates user to the app dashboard with email and password
 # dashboard 
 
 provide features to Create, Read, Update and Delete ebook, each book have the folloing properties:
-1: Book Name
-2: Short description
-3: Link to read/download book
+- Book Name
+- Short description
+- Link to read/download book
 
