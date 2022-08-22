@@ -8,20 +8,20 @@ create mysql database `ebooks` and import `ebooks.sql` file included in the proj
 
 ## run the App
 
-## `npm start`
+### `npm start`
 
 runs the app client on development server (port 3000)
 
-## `nodemon`
+### `nodemon`
 
 runs the app backend on development server (port 8000)
 
 ## App Fetures
 
-# Login
+### Login
 authenicates user to the app dashboard with email and password
 
-# dashboard 
+### dashboard 
 
 provide features to Create, Read, Update and Delete ebook, each book have the folloing properties:
 - Book Name
