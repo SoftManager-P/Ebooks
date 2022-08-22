@@ -1,6 +1,8 @@
 const { transact } = require("./model")
 
 
+// crud operations
+
 module.exports = {
     getBooks:(req,res)=>{
         transact('SELECT * FROM `books`',res)

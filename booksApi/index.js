@@ -3,8 +3,8 @@ const express = require("express")
 const bodyParser = require("body-parser")
 const cors = require('cors')
 const { compareSync } = require("bcrypt")
-const { sign } = require("jsonwebtoken")
-const { db } = require("./db")
+const { sign, verify } = require("jsonwebtoken")
+const db = require("./db")
 const { getBooks, addBook, updateBook, deleteBook } = require("./controller")
 
 const app = express()
@@ -15,7 +15,7 @@ app.use(bodyParser.json())
 app.use(cors({
     origin: '*'
   }));
-
+// middleware
   const midleware = (req,res,next)=>{
     let token = req.get('authorization')
     if(!token){

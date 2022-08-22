@@ -4,7 +4,7 @@
 ## Intallation
 
 Install packages for both client and and server by run `npm install` in the respective directories
-
+create mysql database `ebooks` and import `ebooks.sql` file included in the project files
 
 ## run the App
 
